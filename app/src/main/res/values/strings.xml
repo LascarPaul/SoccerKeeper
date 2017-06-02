@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SoccerKeeper</string>
+    <string name="firstTeam">FC Barcelona</string>
+    <string name="secondTeam">Real Madrid</string>
+    <string name="vs">Vs</string>
+    <string name="firstTeamStartingPoints">0</string>
+    <string name="secondTeamStartingPoints">0</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="metrics1">Penalty Kicks:</string>
+    <string name="metrics2">Corners:</string>
+    <string name="metrics3">Free Kicks:</string>
+    <string name="resetButtonText">Reset</string>
 </resources>

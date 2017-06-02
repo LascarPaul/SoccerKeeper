@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="FC Barcelona" />
+                    android:text="@string/firstTeam" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Real Madrid" />
+                    android:text="@string/secondTeam" />
             </android.support.v7.widget.CardView>
         </LinearLayout>
 
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="vs"
+                android:text="@string/vs"
                 android:textAllCaps="true"
                 android:textColor="#000000" />
 
@@ -87,7 +87,7 @@
                 card_view:cardElevation="20dp">
 
                 <TextView
-                    android:text="0"
+                    android:text="@string/firstTeamStartingPoints"
                     android:id="@+id/team_a_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                 card_view:cardElevation="20dp">
 
                 <TextView
-                    android:text="0"
+                    android:text="@string/secondTeamStartingPoints"
                     android:id="@+id/team_b_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:onClick="decrementTeamA"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="20sp" />
 
 
@@ -140,7 +140,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:onClick="incrementTeamA"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="20sp" />
 
 
@@ -151,7 +151,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:onClick="decrementTeamB"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="20sp" />
 
 
@@ -162,7 +162,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:onClick="incrementTeamB"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="20sp" />
 
 
@@ -199,7 +199,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="decrementYellowA"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="12sp" />
 
             <android.support.v7.widget.CardView
@@ -227,7 +227,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="incrementYellowA"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="12sp" />
 
             <Button
@@ -238,7 +238,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="decrementRedA"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="12sp" />
 
             <android.support.v7.widget.CardView
@@ -266,7 +266,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="incrementRedA"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="12sp" />
         </LinearLayout>
 
@@ -290,7 +290,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="decrementYellowB"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="12sp" />
 
             <android.support.v7.widget.CardView
@@ -318,7 +318,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="incrementYellowB"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="12sp" />
 
             <Button
@@ -329,7 +329,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="decrementRedB"
-                android:text="-"
+                android:text="@string/decrement"
                 android:textSize="12sp" />
 
             <android.support.v7.widget.CardView
@@ -356,7 +356,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="2"
                 android:onClick="incrementRedB"
-                android:text="+"
+                android:text="@string/increment"
                 android:textSize="12sp" />
         </LinearLayout>
 
@@ -398,7 +398,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Penalty Kicks:"
+                    android:text="@string/metrics1"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -408,7 +408,7 @@
                     android:gravity="center"
                     android:onClick="decrementPenaltyA"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -417,7 +417,7 @@
                     android:gravity="center"
                     android:onClick="incrementPenaltyA"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
             <View
@@ -439,7 +439,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Penalty Kicks:"
+                    android:text="@string/metrics1"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -449,7 +449,7 @@
                     android:gravity="center"
                     android:onClick="decrementPenaltyB"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -458,7 +458,7 @@
                     android:gravity="center"
                     android:onClick="incrementPenaltyB"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
         </LinearLayout>
@@ -482,7 +482,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Corners:"
+                    android:text="@string/metrics2"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -492,7 +492,7 @@
                     android:gravity="center"
                     android:onClick="decrementCornersA"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -501,7 +501,7 @@
                     android:gravity="center"
                     android:onClick="incrementCornersA"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
             <View
@@ -522,7 +522,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Corners:"
+                    android:text="@string/metrics2"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -532,7 +532,7 @@
                     android:gravity="center"
                     android:onClick="decrementCornersB"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -541,7 +541,7 @@
                     android:gravity="center"
                     android:onClick="incrementCornersB"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
         </LinearLayout>
@@ -565,7 +565,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Free Kicks:"
+                    android:text="@string/metrics3"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -575,7 +575,7 @@
                     android:gravity="center"
                     android:onClick="decrementFkA"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -584,7 +584,7 @@
                     android:gravity="center"
                     android:onClick="incrementFkA"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
             <View
@@ -607,7 +607,7 @@
                     android:layout_margin="8dp"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="Free Kicks:"
+                    android:text="@string/metrics3"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -617,7 +617,7 @@
                     android:gravity="center"
                     android:onClick="decrementFkB"
                     android:padding="8dp"
-                    android:text="-" />
+                    android:text="@string/decrement" />
 
                 <Button
                     android:layout_width="0dp"
@@ -626,7 +626,7 @@
                     android:gravity="center"
                     android:onClick="incrementFkB"
                     android:padding="8dp"
-                    android:text="+" />
+                    android:text="@string/increment" />
             </LinearLayout>
 
         </LinearLayout>
@@ -643,7 +643,7 @@
                 android:layout_height="40dp"
                 android:background="#000000"
                 android:onClick="reset"
-                android:text="Reset"
+                android:text="@string/resetButtonText"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white" />
 

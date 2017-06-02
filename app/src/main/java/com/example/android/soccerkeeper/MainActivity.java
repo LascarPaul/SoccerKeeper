@@ -117,6 +117,11 @@ public class MainActivity extends AppCompatActivity {
         displayFreeKicksA(freeKicksA);
     }
 
+    public void changeFkA(View view, int value){
+        freeKicksA += value;
+        displayFreeKicksA(freeKicksA
+        );
+    }
 
     public void incrementFkB(View view) {
         freeKicksB++;
